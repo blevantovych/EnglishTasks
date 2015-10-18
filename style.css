@@ -81,32 +81,19 @@ div.odd, div.even {
 	margin-bottom: 10px;
 }
 
-.tooltip, .long_tooltip {
+/*.tooltip {
+	display: inline;
+	position: relative;
+}
+
+.tooltip:hover:after {
+	background: rgba(0,0,0,.8);
+	border-radius: 5px;
+	top: 25px;
+	color: #fff;
+	content: attr(title);
+	left: 20%;
+	padding: 5px 15px;
 	position: absolute;
-	z-index: 999;
-	left: -9999px;
-	background-color: #dedede;
-	/*padding: 5px;
-	/*border:1px solid #fff;*/
-}
-
-.tooltip p{
-	text-align: center;
-	width:150px;
-	margin:0;
-	padding:0;
-	color:#fff;
-	background-color:#6990C7;
-	padding:2px 7px;
-}
-
-.long_tooltip p{
-	text-align: center;
-	width:500px;
-	margin:0;
-	padding:0;
-	color:#fff;
-	background-color:#6990C7;
-	padding:2px 7px;
-}
-
+	z-index: 98;
+}*/
